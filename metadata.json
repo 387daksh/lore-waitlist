@@ -1,0 +1,6 @@
+{
+  "name": "Lore",
+  "description": "Permanent memory for your coding agent.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
