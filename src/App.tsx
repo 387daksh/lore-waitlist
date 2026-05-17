@@ -6,7 +6,7 @@
 
 import { motion } from 'motion/react';
 import { Brain, RefreshCw, Users } from 'lucide-react';
-import React from 'react';
+import React from 'react';x
 export default function App() {
   return (
     <div className="min-h-screen bg-bg">
@@ -21,7 +21,7 @@ export default function App() {
           <div className="font-mono text-[16px] font-medium tracking-tight">
             lore<span className="text-accent">.</span>
           </div>
-          <div className="px-2.5 py-0.5 font-mono text-[10px] font-semibold tracking-[0.15em] border border-accent/30 bg-accent/10 text-accent rounded-full shadow-[0_0_12px_rgba(124,109,250,0.1)]">
+          <div className="px-2.5 py-0.5 font-mono text-[10px] font-semibold tracking-[0.15em] border border-success/20 bg-success/5 text-success rounded-full shadow-[0_0_12px_rgba(74,222,128,0.05)]">
             EARLY ACCESS
           </div>
         </nav>
@@ -116,9 +116,9 @@ export default function App() {
 
           {/* Feature Grid */}
           <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-40">
-            <div className="p-8 bg-surface border border-border rounded-[12px] space-y-6 hover:border-border-hover transition-all">
-              <div className="w-10 h-10 rounded-[10px] border border-accent/20 bg-accent-glow flex items-center justify-center">
-                <Brain className="w-5 h-5 text-accent" />
+            <div className="p-8 bg-surface border border-border rounded-[12px] space-y-6 hover:border-border-hover transition-all group">
+              <div className="w-10 h-10 rounded-[10px] border border-success/20 bg-success/5 flex items-center justify-center shadow-[0_0_15px_rgba(74,222,128,0.03)] transition-all group-hover:scale-105 group-hover:border-success/30">
+                <Brain className="w-5 h-5 text-success/80" />
               </div>
               <div className="space-y-3">
                 <h3 className="text-base font-semibold text-text-primary tracking-tight">Zero setup</h3>
@@ -128,9 +128,9 @@ export default function App() {
               </div>
             </div>
 
-            <div className="p-8 bg-surface border border-border rounded-[12px] space-y-6 hover:border-border-hover transition-all">
-              <div className="w-10 h-10 rounded-[10px] border border-accent/20 bg-accent-glow flex items-center justify-center">
-                <RefreshCw className="w-5 h-5 text-accent" />
+            <div className="p-8 bg-surface border border-border rounded-[12px] space-y-6 hover:border-border-hover transition-all group">
+              <div className="w-10 h-10 rounded-[10px] border border-success/20 bg-success/5 flex items-center justify-center shadow-[0_0_15px_rgba(74,222,128,0.03)] transition-all group-hover:scale-105 group-hover:border-success/30">
+                <RefreshCw className="w-5 h-5 text-success/80" />
               </div>
               <div className="space-y-3">
                 <h3 className="text-base font-semibold text-text-primary tracking-tight">Always current</h3>
@@ -140,9 +140,9 @@ export default function App() {
               </div>
             </div>
 
-            <div className="p-8 bg-surface border border-border rounded-[12px] space-y-6 hover:border-border-hover transition-all">
-              <div className="w-10 h-10 rounded-[10px] border border-accent/20 bg-accent-glow flex items-center justify-center">
-                <Users className="w-5 h-5 text-accent" />
+            <div className="p-8 bg-surface border border-border rounded-[12px] space-y-6 hover:border-border-hover transition-all group">
+              <div className="w-10 h-10 rounded-[10px] border border-success/20 bg-success/5 flex items-center justify-center shadow-[0_0_15px_rgba(74,222,128,0.03)] transition-all group-hover:scale-105 group-hover:border-success/30">
+                <Users className="w-5 h-5 text-success/80" />
               </div>
               <div className="space-y-3">
                 <h3 className="text-base font-semibold text-text-primary tracking-tight">Team memory</h3>
